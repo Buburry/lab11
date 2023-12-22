@@ -17,7 +17,7 @@ int drawCard(void){
 }
 
 int calScore(int x,int y,int z){
-	//Write the function to calculate the score with is the rightmost digit of summation of the scores from three cards.
+
 	int v;
 	if(x >=11){
 	    x= 10;
