@@ -2,7 +2,7 @@
 #include<string>
 #include<cstdlib>
 #include<ctime>
-
+#include<Windows.h>
 using namespace std;
 
 string cardNames[] = {"","A","2","3","4","5","6","7","8","9","10","J","Q","K"};
@@ -116,7 +116,8 @@ int main(){
 		cout << "Yugi's new score: " << yugiScore << "\n";
 	}
 	cout << "------------ Turn end -------------------\n";
-	
+
+	Sleep(1000);
 	
 	checkWinner(playerScore,yugiScore);
 }
